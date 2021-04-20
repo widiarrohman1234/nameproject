@@ -1,0 +1,65 @@
+################## masalah ##################
+syarat kepulangan santri
+1.Syarat SIP
+-DBI3
+-kartu member
+
+2.SIP (Surat izin pulang)
+-santri lama
+	a.SPP4
+	b.DBI4
+-santri baru
+	a.SPP4
+	b.DBI4
+	c.Infaq pembangunan
+	d.qur'an
+	e.formal
+
+################## solusi ##################
+
+Liburan santri
+-idul fitri
+	-Syarat SIP
+		aksi|no |id santri | nama | DBI3
+		aksi|no |id santri | nama | DBI4
+		aksi|no |id santri | nama | KM
+
+	-SIP idul fitri
+	(tambah DBI3) | (tambah DBI4) | (tambah KM)
+	aksi|no |id santri | nama | DBI3 | KM | SPP4 | DBI4 | IP | QRN | Formal | status 
+		|1, 1114001, 	widi, 50,	,25000,300,	50,		,-	, -		,-		,	(print)
+		|2, 1120001,	leni, 50,	,25000,300,	50,	   ,1000,250,	,700	,	(print)
+
+-Idul adha
+	-SIP Idul adha
+
+
+################## coretan ##################
+(tambah DBI3)
+id santri : 
+nama : read-only
+administasi : read-only (DBI3)
+jumlah : 
+tanggal : otomatis
+
+(tambah DBI4)
+id santri : 
+nama : read-only
+administasi : read-only (DBI3)
+jumlah : 
+tanggal : otomatis
+
+(tambah KM)
+id santri : 
+nama : read-only
+administasi : read-only (DBI3)
+jumlah : 
+tanggal : otomatis
+
+#akun login
+login sebagai superadmin
+widi@gmail.com
+sidafasuperadmin
+
+bendahara1@gmail.com
+bendahara1
